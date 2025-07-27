@@ -1,0 +1,89 @@
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.button {
+    margin: 4px 2px;
+    padding: 19px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color:#C7DE83;
+}
+button:hover {
+    background-color: #564F4D;    
+}
+button:active {
+    background-color: #A9A9A9;
+}
+
+.row{
+    margin: 8px 0;
+    margin: 0;
+    padding: 0;
+}
+.row input {
+    margin: 5px;
+    padding: 27px;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.row1{
+    margin: 0px -105px 3px;
+    padding: 0;
+    
+}
+.button1{
+    margin: 3px;
+    padding: 14px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.equalto{
+    background-color: #cf8a62;
+    color:black;
+    font-weight: bold;
+}
+
+.textCenter{
+    text-align: center;
+}
+.container{
+    background-color:#755BA4;
+    overflow: hidden;
+    max-width: 275px;
+    margin: auto;
+    align-items: center;
+   border: rgb(25, 3, 3) 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.operator {
+    background-color: rgb(243, 190, 16);
+    color: black;
+}
+
+.button{
+    border: 2px solid #423b3b;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: all 0.2s ease;
+}
+.heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     max-width: 200px;
+   
+
+}
